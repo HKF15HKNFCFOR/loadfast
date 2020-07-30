@@ -41,7 +41,8 @@ res = array;
     }
     let len = res.length;
 for (var i=0; i<len; i++) {
-    arrayHtml += '<p><a href="'+link+i+'">' + res[i] + '</a></p>';
+    let results = res[i];
+    arrayHtml += '<p><a href="'+link+array.indexOf(results)+'">' + results + '</a></p>';
 }
 document.getElementById("counter").innerHTML = 'Нашлось '+len+' файл(-ов)';
 document.getElementById("search_results").innerHTML = arrayHtml;
