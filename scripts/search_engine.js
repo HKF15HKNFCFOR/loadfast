@@ -36,8 +36,10 @@ let array = myText.split('\n');
 let filter = phrase;
  let res =array.filter(x => x.toLowerCase().indexOf(filter.toLowerCase()) >= 0);
   let arrayHtml='';
+      let len = res.length;
     if (phrase == '#allout'){
 res = array;
+        len = len-1;
     }
     let len = res.length;
 for (var i=0; i<len; i++) {
