@@ -37,3 +37,4 @@ theElement.innerHTML = response.split('\n')[index];
     if (xmlhttp.status == 200) {
         var responsesrc = xmlhttpnew.responseText;
 document.getElementById('link').setAttribute('href',responsesrc.split('\n')[index]);
+    }
