@@ -1,3 +1,3 @@
 User-agent: *
-Sitemap: http://loadfast.tk/sitemap.xml
+Sitemap: https://loadfast.tk/sitemap.xml
 Host: loadfast.tk
