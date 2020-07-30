@@ -1,0 +1,128 @@
+body {
+     background: #fc0 url(images/file.png);
+  padding: 0;
+  margin: 0;
+text-align: center;
+}
+
+
+.two {
+    background: #bfad27;
+    border-bottom-left-radius: 500px 300px;  /* значение по ширине и по высоте */
+    border-bottom-right-radius: 500px 300px;
+  padding: 50px 50px;
+  text-align: center;
+} 
+.two h1 {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  color: #5C2610;
+  font-size: 3em;
+  font-weight: normal;
+  line-height: 1;
+  padding: 10px 0;
+  margin: 0;
+  display: inline-block;
+}
+.two h1:before {
+  content: ""; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+  height: 200%;
+  border-radius: 50%/30%;
+  border: 6px solid #5c2610;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+p {
+text-align: center;
+  padding: 30px;
+  margin:20px;
+  font-size: 25px;
+  color: white;
+  
+}
+a {
+    background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+a:active {
+  background-color: black;
+}
+
+a:visited {
+  background-color: #ccc;
+}
+
+h2 {
+text-align: center;
+  font-size: 30px;
+  color: white;
+    text-shadow: black 2px 2px 0, black -2px -2px 0, 
+                 black -2px 2px 0, black 2px -2px 0;
+  
+}
+h3 {
+  color: black;
+}
+div {
+display: block; text-align: center;
+}
+#reclam {
+        background:#f1f1f1; 
+        float:left; 
+        text-align:center;
+        padding: 0px;
+     width: 160px;
+     height: 600px;
+}
+
+.out{
+background-color: #bfad27;
+  border-radius: 30px;
+
+  display: inline-block;
+  
+    box-sizing: border-box;
+    padding: 20px;
+  padding-bottom: 40px;
+}
+
+
+.box{
+  margin: 10px auto;
+  border: none;
+  width: 300px;
+  height: 50px;
+}
+.container-1 input#search{
+  width: 300px;
+  height: 50px;
+  background: #ffe735;
+  border: none;
+  font-size: 20pt;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  border-radius: 5px;
+}
+footer {
+font-size: 1.1rem;
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    color: black; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+    padding: 10px; /* Поля вокруг текста */
+    background: rgba(255,255,255,.86); /* Цвет фона */
+   }
