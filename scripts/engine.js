@@ -23,7 +23,7 @@ var regexp = /num=([^&]+)/i;
     if (!!regexp.exec(document.location.search)) 
         GetValue = regexp.exec(document.location.search)[1];
     if (index=='zero')
-     document.location.href = "index.html";
+     document.location.href = "https://loadfast.tk";
     var xmlhttp = getXmlHttp();
     xmlhttp.open('GET', 'database/name_database.txt', false);
     xmlhttp.send(null);
