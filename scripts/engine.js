@@ -19,7 +19,7 @@ function getXmlHttp() {
 
 let regexp = #num=([^&]+)/i;
     let index = '2';
-    let GetValue;
+    let GetValue='h';
     if (!!regexp.exec(document.location.search)) 
         GetValue = regexp.exec(document.location.search)[1];
   alert(GetValue);
