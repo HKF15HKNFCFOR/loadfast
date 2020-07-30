@@ -39,7 +39,7 @@ let filter = phrase;
       let len = res.length;
     if (phrase == '#allout'){
 res = array;
-        len = len-1;
+        len = len.length-1;
     }
 for (let i=0; i<len; i++) {
     let results = res[i];
