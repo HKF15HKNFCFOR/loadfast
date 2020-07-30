@@ -17,7 +17,6 @@ function getXmlHttp() {
     return xmlhttp;
 }
 
-(function () {
 let regexp = #num=([^&]+)/i;
     let index = '2';
     let GetValue;
@@ -38,6 +37,3 @@ theElement.innerHTML = response.split('\n')[index];
     if (xmlhttp.status == 200) {
         var responsesrc = xmlhttpnew.responseText;
 document.getElementById('link').setAttribute('href',responsesrc.split('\n')[index]);
-
-    }
-})();
