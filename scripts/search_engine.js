@@ -29,7 +29,7 @@ function turnText() {
 function tableSearch() {
     let phrase = document.getElementById('search').value;
   if (phrase!=''){
-let link='https://loadfast.tk/download.html/?num=';
+let link='https://loadfast.tk/download.html#num=';
 
 const myText = turnText(); // инициализируем переменную, содержащую строку
 let array = myText.split('\n');
