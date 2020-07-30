@@ -22,7 +22,7 @@ var regexp = /num=([^&]+)/i;
     var index = '2';
     if (!!regexp.exec(document.location.search)) 
         GetValue = regexp.exec(document.location.search)[1];
-  
+  alert(GetValue);
     var xmlhttp = getXmlHttp();
     xmlhttp.open('GET', 'database/name_database.txt', false);
     xmlhttp.send(null);
