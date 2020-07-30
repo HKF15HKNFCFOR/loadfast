@@ -18,10 +18,9 @@ function getXmlHttp() {
 }
 
 let regexp = /num=([^&]+)/i;
-    let index = '2';
+    let index = '0';
     if (!!regexp.exec(document.location.hash)) 
         index = regexp.exec(document.location.hash)[1];
-  alert(document.location.hash);
     var xmlhttp = getXmlHttp();
     xmlhttp.open('GET', 'database/name_database.txt', false);
     xmlhttp.send(null);
