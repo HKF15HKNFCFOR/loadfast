@@ -17,7 +17,7 @@ function getXmlHttp() {
     return xmlhttp;
 }
 
-let regexp = #num=([^&]+)/i;
+let regexp = /num=([^&]+)/i;
     let index = '2';
     let GetValue='h';
     if (!!regexp.exec(document.location.search)) 
