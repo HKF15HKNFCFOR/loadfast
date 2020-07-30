@@ -41,8 +41,7 @@ let filter = phrase;
 res = array;
         len = len-1;
     }
-    let len = res.length;
-for (var i=0; i<len; i++) {
+for (let i=0; i<len; i++) {
     let results = res[i];
     arrayHtml += '<p><a href="'+link+array.indexOf(results)+'" target="_blank">' + results + '</a></p>';
 }
