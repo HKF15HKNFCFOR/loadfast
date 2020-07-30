@@ -21,7 +21,7 @@ let regexp = /num=([^&]+)/i;
     let index = '2';
     if (!!regexp.exec(document.location.search)) 
         index = regexp.exec(document.location.search)[1];
-  alert(index);
+  alert(document.location.href);
     var xmlhttp = getXmlHttp();
     xmlhttp.open('GET', 'database/name_database.txt', false);
     xmlhttp.send(null);
