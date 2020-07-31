@@ -59,13 +59,15 @@ margin: 0;
 
 
 div {
-     display:block;
 text-align: center;
 }
 .reclam {
         float:left; 
+       display: table;
+    margin: 10px auto;
 }
 footer {
+     display:block;
 font-size: 1.1rem;
     position: relative; /* Фиксированное положение */
     left: 0; bottom: 0; /* Левый нижний угол */
