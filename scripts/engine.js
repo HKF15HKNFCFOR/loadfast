@@ -36,7 +36,7 @@ theElement.innerHTML = response.split('\n')[index];
         var responsesrc = xmlhttpnew.responseText;
 document.getElementById('link').setAttribute('href',responsesrc.split('\n')[index]);
     }
-let counter=9;
+let counter=29;
 
 let id = setInterval(function() {
 	
