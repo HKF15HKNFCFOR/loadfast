@@ -36,3 +36,16 @@ theElement.innerHTML = response.split('\n')[index];
         var responsesrc = xmlhttpnew.responseText;
 document.getElementById('link').setAttribute('href',responsesrc.split('\n')[index]);
     }
+let counter=9;
+
+let id = setInterval(function() {
+	
+	if (counter == 0) {
+		clearInterval(id);
+document.getElementById("timedown").hidden = true;
+document.getElementById("link").hidden = false;
+	} else {
+		 document.getElementById("timedown").innerHTML = "Ссылка появится через "+counter+" секунд(-ы)";
+	}
+counter--;
+}, 1000);
