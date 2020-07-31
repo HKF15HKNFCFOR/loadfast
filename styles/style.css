@@ -1,5 +1,5 @@
 body {
-     background: #fc0 url(images/file.png);
+     background: #ffe3b4 url(images/file.png);
   padding: 0;
   margin: 0;
 text-align: center;
@@ -7,7 +7,7 @@ text-align: center;
 
 
 .two {
-    background: #bfad27;
+    background: #754722;
     border-bottom-left-radius: 500px 300px;  /* значение по ширине и по высоте */
     border-bottom-right-radius: 500px 300px;
   padding: 50px 50px;
@@ -16,7 +16,7 @@ text-align: center;
 .two h1 {
   font-family: 'Open Sans', sans-serif;
   position: relative;
-  color: #5C2610;
+  color: black;
   font-size: 3em;
   font-weight: normal;
   line-height: 1;
@@ -33,7 +33,7 @@ text-align: center;
   width: 80%;
   height: 200%;
   border-radius: 50%/30%;
-  border: 6px solid #5c2610;
+  border: 6px solid black;
   border-left-color: transparent;
   border-right-color: transparent;
 }
@@ -46,8 +46,8 @@ text-align: center;
   
 }
 a {
-    background-color: red;
-  color: white;
+    background-color: #b7a381;
+  color: #421b0b;
   padding: 1em 1.5em;
   text-decoration: none;
   text-transform: uppercase;
@@ -62,11 +62,12 @@ width: 40%;
         padding: 25px;
 }
 h2 {
+ background: #ffe3b4;    
 text-align: center;
   font-size: 30px;
-  color: #5c2610;
-    text-shadow: white 2px 2px 0, white -2px -2px 0, 
-                 white -2px 2px 0, white 2px -2px 0;
+  color: #b7a381;
+    text-shadow: black 2px 2px 0, black -2px -2px 0, 
+                 blac -2px 2px 0, black 2px -2px 0;
   
 }
 h3 {
@@ -85,7 +86,7 @@ display: block; text-align: center;
 }
 
 .out{
-background-color: #bfad27;
+background-color: #754722;
   border-radius: 30px;
 
   display: inline-block;
@@ -107,7 +108,7 @@ padding: 50px;
 .container-1 input#search{
   width: 300px;
   height: 50px;
-  background: #ffe735;
+  background: #white;
   border: none;
   font-size: 20pt;
   float: left;
