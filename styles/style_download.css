@@ -64,7 +64,12 @@ text-align: center;
 .reclam {
         float:left; 
 }
-
+.rout {
+        float:left; 
+        text-align:center;
+     width: 160px;
+     height: 600px;
+}
 footer {
 font-size: 1.1rem;
     position: relative; /* Фиксированное положение */
