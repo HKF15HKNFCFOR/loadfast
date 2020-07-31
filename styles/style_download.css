@@ -59,15 +59,11 @@ margin: 0;
 
 
 div {
+     display:block;
 text-align: center;
 }
 .reclam {
         float:left; 
-}
-.rout {
-        float:left; 
-     width: 200px;
-     height: 600px;
 }
 footer {
 font-size: 1.1rem;
