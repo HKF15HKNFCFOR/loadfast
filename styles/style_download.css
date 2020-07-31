@@ -57,9 +57,10 @@ margin: 0;
 
 
 
-div {
-     display:block;
-text-align: center;
+#download{
+display: block; text-align: center;
+  float:center;
+  padding:20px;
 }
 footer {
 font-size: 1.1rem;
