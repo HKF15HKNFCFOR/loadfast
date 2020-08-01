@@ -67,6 +67,11 @@ color: white;
   font-size: 30px; 
   font-family: ‘Signika’, sans-serif; 
 }
+.uptext{
+  background: #b7a381;
+color: #red;
+  font-size: 25px; 
+}
 footer {
 font-size: 1.1rem;
     position: relative; /* Фиксированное положение */
