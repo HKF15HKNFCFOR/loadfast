@@ -69,7 +69,8 @@ color: white;
 }
 .uptext{
   background: #b7a381;
-color: #red;
+text-align: center;
+color: red;
   font-size: 25px; 
 }
 footer {
